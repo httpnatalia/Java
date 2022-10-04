@@ -29,11 +29,13 @@ public class ConversorDatas {
 		  String ano = dataSomenteNumeros.substring(0, 4);
 		  String mes = "";
 		  
-		  if (Integer.parseInt(ano) >= anoInicial) 
+		  if (Integer.parseInt(ano) >= anoInicial) {
 			  mes = dataSomenteNumeros.substring(4, 6);
-		  else
+		  }
+		  else {
 			  mes = dataSomenteNumeros.substring(2, 4);
 			  ano = dataSomenteNumeros.substring(4, 8);
+		  }
 		   
 		  return ano + "/" + mes;
 	  }

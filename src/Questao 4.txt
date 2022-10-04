@@ -1,0 +1,16 @@
+1 - Instancia uma variável chamada abas do tipo array de int com três itens sendo 0, 1 e 2.
+
+2 - Realiza a verificação condicional de uma variável do tipo string, verificando se ela inicia com zero.
+Se ela iniciar com zero, é realizado um loop de 10 vezes.
+Dentro do loop é realizada a verificação condicional validando se a variável documento tem algum caractere e se inicia com zero.
+Se a verificação condicional retornar verdadeiro, o primeiro caractere da variável documento é removido. 
+
+3 - Criada uma instancia de StringBuilder e uma cadeia de caracteres é adicionada a ela.
+Instanciada uma variáveldo tipo string com um caminho de arquivo de extensão txt.
+Instanciada a variável do tipo FileWriter com o caminho do arquivo.
+Erro de compilação pois o método writeNewFile não existe para a classe FileWriter.
+
+4 - Verifica se a variável dataMovimento tem um tamanho válido.
+Extrai o mês da data de movimento e diminui um mês.
+Extrai o ano da data de movimento.
+Se o mês que foi decrementado for igual a zero, seta a variável mesAnox como dezembro de 2017.
